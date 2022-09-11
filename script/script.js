@@ -1,4 +1,6 @@
-AOS.init();
+$(window).on("load", function(){
+    $(".preloader").fadeOut("slow");
+});
 
 // Navigation Bar
 const btn = document.querySelector("button.mobile-menu-button");
